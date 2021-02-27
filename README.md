@@ -2,7 +2,7 @@
 
 - React Hooks
   - Axios
-  - 
+  
 - SaSS
   - Responsive
   - BEM
