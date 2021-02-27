@@ -1,0 +1,58 @@
+.card {
+  display: block;
+  border-radius: 5%;
+  overflow: hidden;
+  cursor: pointer;
+
+  &__img-container {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+  }
+  &__photo {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+    object-fit: cover;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__info {
+    padding: 20px;
+    background-color: $info-card-color;
+    color: white;
+    font-family: $main-font;
+  }
+  &__title {
+    padding: 10px 0 20px 0;
+    font-size: 20px;
+    font-family: $secundary-font;
+    font-weight: 700;
+  }
+  &__body {
+    @include flexbox(flex-start, center);
+  }
+  &__circle {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: $status-dead-color;
+    border: 3px solid white;
+    border-radius: 50%;
+
+    &--active {
+      background-color: $status-alive-color;
+    }
+  }
+  &__status {
+    margin-left: 5px;
+    @include flexbox(flex-start, center);
+  }
+  &__status-info {
+    font-size: 1.5em;
+    margin: 0 4px;
+  }
+}
