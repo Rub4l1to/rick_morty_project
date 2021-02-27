@@ -10,12 +10,12 @@
 @import "base/utilities";
 
 // Components
+@import "../../components/Card/Card.scss";
+@import "../../components/Header/Header.scss";
+@import "../../components/Footer/Footer.scss";
 
 // Layout
-@import "layout/footer";
 @import "layout/grid";
-@import "layout/header";
-@import "layout/navigation";
 
 // Pages
 @import "pages/home";
