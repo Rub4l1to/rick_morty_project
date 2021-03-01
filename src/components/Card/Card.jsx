@@ -1,24 +1,31 @@
-import React from 'react'
+import React, { Fragment, useState } from "react";
+import Modal from "../Modal/Modal";
 
-const Card = ({item}) => {
-    const { name, status, species, image} = item;
-    // console.log(item)
-    return (
-        <div className="card">
-            <figure className="card__img-container">
-                <img className="card__photo" src={image} alt="" />
-            </figure>
-            <div className="card__info">
-                <p className="card__title">{name}</p>
-                <div className="card__body">
-                    <span className=" card__circle card__circle--active"></span>
-                    <p className="card__status">
-                        <span className="card__status-info">{status}</span>-
-                        <span className="card__status-info">{species}</span>
-                    </p>
-                </div>
-            </div>
+const Card = ({ item }) => {
+  const {  name, status, species, image, gender, origin, location } = item;
+  console.log(item)
+
+  const [modal, showModal] = useState(false);
+  // console.log(item)
+  return (
+    <Fragment>
+      <div className="card" onClick={() => showModal(true)}>
+        <figure className="card__img-container">
+          <img className="card__photo" src={image} alt="" />
+        </figure>
+        <div className="card__info">
+          <p className="card__title">{name}</p>
+          <div className="card__body">
+            <span className="card__circle card__circle--active"></span>
+            <p className="card__status">
+              <span className="card__status-info">{status}</span>-
+              <span className="card__status-info">{species}</span>
+            </p>
+          </div>
         </div>
-    )
-}
-export default Card
+      </div>
+      {modal && <Modal {...{name, status, species, image, gender, origin, location, showModal }} />}
+    </Fragment>
+  );
+};
+export default Card;
