@@ -9,10 +9,7 @@
 - This application is based on an old design made with native js and css.
 - It mainly allows us to search for any character and see its details.
 
-Principalmente nos permite buscar cualquier personaje y ver sus detalles.
-
 ## ⚡ Technologies
 - Front-end development using **React, SaSS (BEM)**
-- Making for **Relational Database Management Systems**
 
 ```⭐️ From [Rub4lito](https://github.com/Rub4l1to)```
