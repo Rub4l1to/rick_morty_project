@@ -23,7 +23,6 @@ Principalmente nos permite buscar cualquier personaje y ver sus detalles.
 
 ### Phone
 ![image](https://user-images.githubusercontent.com/48188704/109576919-f8d13080-7af4-11eb-85d5-a241172515cb.png)
-![image](https://user-images.githubusercontent.com/48188704/109577017-2ae29280-7af5-11eb-8749-3f3608e2db79.png)
-
+![image](https://user-images.githubusercontent.com/48188704/109577371-bcea9b00-7af5-11eb-995d-a774a9201afb.png)
 
 ```⭐️ From [Rub4lito](https://github.com/Rub4l1to)```
