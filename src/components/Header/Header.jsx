@@ -12,7 +12,7 @@ const Header = ({ handleFilter }) => {
     return (
         <header className="header">
             <nav className="nav">
-                <img className="nav__logo" src="img/logo.png" alt="logo" />
+                <img className="nav__logo" src="./img/logo.png" alt="logo" />
             </nav>
             <div className="search">
                 <article className="search__box">

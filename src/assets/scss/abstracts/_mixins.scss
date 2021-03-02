@@ -16,6 +16,11 @@
       @content;
     } //600px
   }
+  @if $breakpoint == phone-land {
+    @media only screen and (min-width: 25em) {
+      @content;
+    } //600px
+  }
   @if $breakpoint == tab-port {
     @media only screen and (min-width: 50.25em) {
       @content;

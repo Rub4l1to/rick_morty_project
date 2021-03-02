@@ -11,29 +11,32 @@
   opacity: 0;
   animation: modal-show 0.5s 1 forwards;
   @include flexbox(center, center);
+  backdrop-filter: blur(5px);
 
   &__content {
     position: relative;
     background-color: white;
     color: black;
-    border-radius: 25px;
     overflow: hidden;
-    width: 65%;
-    max-width: 65%;
+
+    @include respond(phone) {
+      width: 85%;
+    }
+    @include respond(phone-land) {
+      width: 70%;
+    }
     @include respond(tab-port) {
-      width: 55%;
-      max-width: 60%;
+      width: 65%;
     }
     @include respond(tab-land) {
-      width: 45%;
-      max-width: 45%;
+      width: 30%;
     }
   }
 
   &__hide {
     position: absolute;
-    top: 12px;
-    right: 10px;
+    top: 15px;
+    right: 15px;
     padding: 0;
     -webkit-appearance: none;
     background-color: transparent;
@@ -52,8 +55,6 @@
   }
 
   &__info {
-    width: 100%;
-    height: 100%;
     background-color: $info-card-color;
     @include flexbox(center, center, column);
     @include respond(tab-port) {
@@ -63,14 +64,17 @@
 
   &__photo {
     object-fit: cover;
+    width: 100%;
+    padding: 20px;
+    border-radius: 14px;
   }
 
   &__bibliography {
-    width: 85%;
+    width: 80%;
     @include flexbox(center, normal, column);
     font-family: $secundary-font;
     color: white;
-    padding: 10px 0 20px;
+    padding: 10px 0 30px;
     @include respond(tab-port) {
       margin-left: 20px;
     }
@@ -107,7 +111,7 @@
 }
 
 .dimensions {
-  padding: 10px 0 0;
+  padding: 20px 0 0;
   font-size: 15px;
 
   &-text {
