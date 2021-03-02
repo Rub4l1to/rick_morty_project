@@ -10,6 +10,9 @@
 - It mainly allows us to search for any character and see its details.
 
 ## ⚡ Technologies
-- Front-end development using **React, SaSS (BEM)**
+![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
+![React](https://img.shields.io/badge/-React-%23282C34?style=flat-square&logo=react)
+![Webpack](https://img.shields.io/badge/-Webpack-%232C3A42?style=flat-square&logo=webpack)
+![Sass](https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff)
 
 ```⭐️ From [Rub4lito](https://github.com/Rub4l1to)```
