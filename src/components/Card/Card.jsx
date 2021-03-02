@@ -2,11 +2,9 @@ import React, { Fragment, useState } from "react";
 import Modal from "../Modal/Modal";
 
 const Card = ({ item }) => {
-  const {  name, status, species, image, gender, origin, location } = item;
-  console.log(item)
-
+  const { name, status, species, image, gender, origin, location } = item;
   const [modal, showModal] = useState(false);
-  // console.log(item)
+
   return (
     <Fragment>
       <div className="card" onClick={() => showModal(true)}>
@@ -16,7 +14,7 @@ const Card = ({ item }) => {
         <div className="card__info">
           <p className="card__title">{name}</p>
           <div className="card__body">
-            <span className="card__circle card__circle--active"></span>
+            <span className={`card__circle ${status.toLowerCase() === 'alive' && 'card__circle--active'}`}></span>
             <p className="card__status">
               <span className="card__status-info">{status}</span>-
               <span className="card__status-info">{species}</span>
@@ -24,7 +22,7 @@ const Card = ({ item }) => {
           </div>
         </div>
       </div>
-      {modal && <Modal {...{name, status, species, image, gender, origin, location, showModal }} />}
+      {modal && <Modal {...{ name, status, species, image, gender, origin, location, showModal }} />}
     </Fragment>
   );
 };

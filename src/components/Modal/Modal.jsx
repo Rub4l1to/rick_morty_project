@@ -20,18 +20,19 @@ export default function Modal({
           <figure className="modal__img-container">
             <img className="modal__photo" src={image} alt="" />
           </figure>
-       
+
           <div className="modal__bibliography">
             <p className="modal__title">{name}</p>
             <div className="modal__status">
-              <span className="card__circle card__circle--active"></span>
+              <span className={`modal__circle ${status.toLowerCase() === 'alive' && 'modal__circle--active'}`}></span>
+
               <p className="modal__status-info">
                 <span className="modal__status-state">{status}</span> -
                 <span className="modal__status-race">{species}</span>
               </p>
             </div>
             <div className="dimensions modal__gender">
-              <p className=" modal__gender-title">Gender</p>
+              <p className="modal__gender-title">Gender</p>
               <p className="dimensions-text modal__gender-text">{gender}</p>
             </div>
             <div className="dimensions modal__origin">
@@ -43,10 +44,8 @@ export default function Modal({
               <p className="dimensions-text modal__location-text">{location.name}</p>
             </div>
           </div>
-          </div>
         </div>
-    
-      
+      </div>
     </div>
   );
 }
