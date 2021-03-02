@@ -18,11 +18,11 @@ Principalmente nos permite buscar cualquier personaje y ver sus detalles.
 ## 🎯 Views
 
 ### Desktop
-![image](https://user-images.githubusercontent.com/48188704/109576841-cf180980-7af4-11eb-9e32-6f4c1750f173.png)
-![image](https://user-images.githubusercontent.com/48188704/109576876-dc34f880-7af4-11eb-8cbf-0a037fc1dc0a.png)
+<img src="https://user-images.githubusercontent.com/48188704/109576841-cf180980-7af4-11eb-9e32-6f4c1750f173.png" alt="" data-canonical-src="https://user-images.githubusercontent.com/48188704/109576841-cf180980-7af4-11eb-9e32-6f4c1750f173.png"/>
+<img src="https://user-images.githubusercontent.com/48188704/109576876-dc34f880-7af4-11eb-8cbf-0a037fc1dc0a.png" alt="" data-canonical-src="https://user-images.githubusercontent.com/48188704/109576876-dc34f880-7af4-11eb-8cbf-0a037fc1dc0a.png"  />
 
 ### Phone
-![image](https://user-images.githubusercontent.com/48188704/109576919-f8d13080-7af4-11eb-85d5-a241172515cb.png)
-![image](https://user-images.githubusercontent.com/48188704/109577371-bcea9b00-7af5-11eb-995d-a774a9201afb.png)
+<img src="https://user-images.githubusercontent.com/48188704/109576919-f8d13080-7af4-11eb-85d5-a241172515cb.png" alt="" data-canonical-src="https://user-images.githubusercontent.com/48188704/109576919-f8d13080-7af4-11eb-85d5-a241172515cb.png" />
+<img src="https://user-images.githubusercontent.com/48188704/109577371-bcea9b00-7af5-11eb-995d-a774a9201afb.png" alt="" data-canonical-src="https://user-images.githubusercontent.com/48188704/109577371-bcea9b00-7af5-11eb-995d-a774a9201afb.png"  />
 
 ```⭐️ From [Rub4lito](https://github.com/Rub4l1to)```
